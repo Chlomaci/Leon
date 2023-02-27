@@ -1,0 +1,89 @@
+@media (max-width: 1080px) and (min-width: 1025px) {
+    .logo-ball{
+        width: 10vw;
+    }
+    .main__wrapper{
+        font-size: 7vw;
+        padding-top: 6vh;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .main__subtitle_violet{
+        width: 83vw;
+        font-size: 7vw;
+        min-height: 0px;
+    }
+    .main__ball_left {
+        height: 15vw;
+    }
+    .wheel__bg{
+        width: 100vw;
+        height: 100vw;
+        margin-top: 8%;
+        margin-left: 1%;
+    }
+    .wheel__button{
+        left: 42%;
+        top: 38%;
+        height: 17vw;
+    }
+    .wheel__container div{
+        height: 35vw;
+        width: 27vw;
+        clip-path: polygon(147% -96%, 50% 100%, -17% -40%);
+        left: 21vw;
+        top: 0vh;
+    }
+    .prize{
+        font-size: 2vw;
+    }
+    .circle__inner{
+        left: 37%;
+        top: 33%
+    }
+    .wheel__container{
+        left: 13%;
+    }
+    .wheel__active{
+        top: 7%;
+        height: 43%;
+    }
+    .main__woman{
+        height: 42vh;
+        margin-left: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .main__title{
+        font-size: 15vw;
+    }
+    .main__subtitle{
+        font-size: 7vw;
+    }
+
+
+    // popup
+
+    .popup{
+        width: 76vw;
+        height: 90vw;
+    }
+    .popup__text{
+        bottom: 21%;
+        // left: -3%;
+        // width: 90%;
+        left: 2%;
+        width: 80%;
+        height: 10vw
+    }
+    .popup__title{
+        font-size: 7vw;
+    }
+    .popup__prize{
+        font-size: 4vw;
+    }
+    .popup__button{
+        font-size: 4vw;
+    }
+}
